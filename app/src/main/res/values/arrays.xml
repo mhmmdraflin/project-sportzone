@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="court_types">
+        <item>lapangan 1</item>
+        <item>lapangan 2</item>
+        <item>lapangan 3</item>
+    </string-array>
+
+    <!-- Define durations -->
+    <string-array name="durations">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="lapangan_array">
+        <item>Lapangan 1</item>
+        <item>Lapangan 2</item>
+        <item>Lapangan 3</item>
+        <item>Lapangan 4</item>
+    </string-array>
+
+    <string-array name="olahraga_array">
+        <item>Futsal</item>
+        <item>Basket</item>
+        <item>Handball</item>
+    </string-array>
+
+    <string-array name="durasi_array">
+        <item>1 Jam/Rp.130.000</item>
+        <item>2 Jam/Rp.260.000</item>
+        <item>3 Jam/Rp.520.000</item>
+        <item>4 Jam/Rp.1.040.000</item>
+    </string-array>
+</resources>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_wave">
+
+    <!-- Background image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/bg_rounded_top" />
+
+    <!-- ScrollView untuk mengelilingi CardView -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- CardView untuk mengelilingi semua elemen -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <!-- LinearLayout sebagai wadah untuk elemen-elemen -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Judul Panduan Aplikasi SportZone -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Panduan Aplikasi SportZone"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Panduan Login -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <ImageView
+                    android:id="@+id/imageLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Buka aplikasi dan masuk ke layar Login.\n2. Masukkan username dan password Anda.\n3. Klik tombol Login."
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Panduan Register -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Register"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <ImageView
+                    android:id="@+id/imageRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Masuk ke layar Register.\n2. Masukkan username, password, dan konfirmasi password Anda.\n3. Klik tombol Register."
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Panduan Pemesanan -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Memesan Lapangan"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <ImageView
+                    android:id="@+id/imageBooking"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Masuk ke layar Pemesanan.\n2. Pilih jenis lapangan, tanggal, waktu, dan durasi.\n3. Klik tombol Book."
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Panduan History -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="History Booking"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <ImageView
+                    android:id="@+id/imageHistory"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Klik Tombol History Booking.\n2. jika data pesanan tampil artinya anda berhasil melakukan Booking.\n3. anda juga bisa klik data tersebut jika ingin melihat detail data tersebut."
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Panduan Memperbarui Pemesanan -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Memperbarui Pemesanan"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <ImageView
+                    android:id="@+id/imageEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Masuk ke riwayat pemesanan Anda.\n2. Pilih pemesanan yang ingin diperbarui.\n3. Lakukan perubahan yang diperlukan dan klik Update."
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Panduan Membatalkan Pemesanan -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Membatalkan Pemesanan"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <ImageView
+                    android:id="@+id/imageCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Masuk ke riwayat pemesanan Anda.\n2. Pilih pemesanan yang ingin dibatalkan.\n3. Klik tombol Cancel."
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Panduan Melihat Info -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Melihat Info Turnamen dan Diskon"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <ImageView
+                    android:id="@+id/imageInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Masuk ke layar Info.\n2. Jelajahi informasi tentang turnamen dan diskon lapangan."
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Panduan Fitur Profil -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fitur Profil"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"/>
+
+                <ImageView
+                    android:id="@+id/imageProfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Masuk ke layar Profil.\n2. Lihat dan perbarui informasi profil Anda.\n3. Lihat tautan ke Instagram Anda.\n4. kemudian ada tombol Logout untuk anda logout dari akun ini."
+                    android:layout_marginTop="8dp"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

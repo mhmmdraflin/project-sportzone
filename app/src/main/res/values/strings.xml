@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SportZone</string>
+    <string name="booking_activity_title">Book a Court</string>
+    <string name="history_activity_title">Booking History</string>
+
+    <string-array name="lapangan">
+        <item>Lapangan 1</item>
+        <item>Lapangan 2</item>
+        <item>Lapangan 3</item>
+        <item>Lapangan 4</item>
+        <item>Lapangan 5</item>
+    </string-array>
+
+    <string-array name="durasi">
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+    </string-array>
+</resources>
