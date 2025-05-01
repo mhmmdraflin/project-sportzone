@@ -1,6 +1,3 @@
-Berikut versi final `README.md` untuk proyek **SPORTZONE**, dengan tambahan informasi LinkedIn di bagian kontak pengembang:
-
-```markdown
 # 🏟️ SPORTZONE - Aplikasi Pemesanan Lapangan Olahraga
 
 **SPORTZONE** adalah aplikasi Android yang memudahkan pengguna untuk melakukan pemesanan lapangan olahraga secara online. Dengan antarmuka yang ramah pengguna dan fitur lengkap, SPORTZONE memungkinkan pengguna memilih jadwal, lapangan, serta melakukan pembayaran digital dengan mudah.
@@ -48,18 +45,12 @@ Berikut versi final `README.md` untuk proyek **SPORTZONE**, dengan tambahan info
 
 ## 📸 Tampilan Antarmuka
 
-> (Tambahkan gambar di folder `screenshots/` jika ada)
-
 | Splash Screen | Login Screen | Booking Form |
 |---------------|--------------|---------------|
-| ![Splash](screenshots/splash.png) | ![Login](screenshots/login.png) | ![Booking](screenshots/booking.png) |
-![Copy of Blue and Purple Retro Business Proposal A3](https://github.com/user-attachments/assets/0a2ae3b7-96ec-4af8-ad61-33ed76a06b03)
 
-
+![Copy of Blue and Purple Retro Business Proposal A3](https://github.com/user-attachments/assets/6fd387e3-1a17-4e23-a253-74de62ee51bd)
 
 ---
-
-
 
 ## 📝 Catatan Penting
 
@@ -70,11 +61,11 @@ Berikut versi final `README.md` untuk proyek **SPORTZONE**, dengan tambahan info
 
 ## 📌 Rencana Pengembangan
 
-- [ ] Integrasi Firebase Authentication
-- [ ] Fitur pembatalan booking
-- [ ] Notifikasi pengingat booking
-- [ ] Backend API untuk sinkronisasi data
-- [ ] Desain UI dengan Material Design 3
+- [ ] Integrasi Firebase Authentication  
+- [ ] Fitur pembatalan booking  
+- [ ] Notifikasi pengingat booking  
+- [ ] Backend API untuk sinkronisasi data  
+- [ ] Desain UI dengan Material Design 3  
 
 ---
 
@@ -89,6 +80,6 @@ Silakan fork repository ini dan kirim pull request, atau ajukan masalah (issues)
 
 - 👤 Nama: **Muhammad Rafli Nurfathan**  
 - 📧 Gmail: **nurfathanrafli85@gmail.com**  
-- 🔗 LinkedIn: [linkedin.com/in/mhmmdraflin](www.linkedin.com/in/mhmmdraflin)
+- 🔗 LinkedIn: [linkedin.com/in/mhmmdraflin](https://www.linkedin.com/in/mhmmdraflin)
 
 ---
