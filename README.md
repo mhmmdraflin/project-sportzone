@@ -93,7 +93,7 @@ Silakan fork repository ini dan kirim pull request, atau ajukan masalah (issues)
 
 ---
 
-## 📧 Kontak Pengembang
+## 📲 Kontak Pengembang
 
 * 👤 Nama: **Muhammad Rafli Nurfathan**
 * 📧 Gmail: **[nurfathanrafli85@gmail.com](mailto:nurfathanrafli85@gmail.com)**
